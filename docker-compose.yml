@@ -1,0 +1,8 @@
+version: '3'
+services:
+  fastapi-ds:
+    build: .
+    volumes: 
+      - .:/code
+    ports:
+      - '80:80'
